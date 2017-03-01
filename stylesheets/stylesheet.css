@@ -72,7 +72,8 @@ a:hover {
 
 .page-header {
     color: #fff;
-    background-color: #222;
+    background-color: #111;
+    background: linear-gradient(to bottom, #000 0%,#111 100%);
     height: 100vh;
     position: relative;
 }
@@ -81,7 +82,7 @@ a:hover {
     position: fixed;
     bottom: 2em;
     right: 2em;
-    font-weight: 300;
+    font-weight: 200;
     color: #fff;
     text-decoration: none;
 }
@@ -140,6 +141,7 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0.1rem;
     font-weight: 200;
+    margin-top: -.8rem;
 }
 
 @media screen and (min-width: 64em) {
@@ -161,8 +163,7 @@ a:hover {
 }
 
 .project-tagline {
-    margin-bottom: 2rem;
-    font-weight: 300;
+    font-weight: 200;
     margin-top: 0;
 }
 
